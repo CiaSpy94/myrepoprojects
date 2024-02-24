@@ -37,8 +37,3 @@ python main.py
 
 ![demo](https://user-images.githubusercontent.com/87910771/147886979-a12cd79a-8f49-4603-b568-4991dde28feb.jpg)
 
-
-
-## 🤖 Author
-<!--Remove the below lines and add yours -->
-[AnishLohiya](https://github.com/AnishLohiya)
