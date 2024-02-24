@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<!--<meta http-equiv="refresh" content="10">-->
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+table, th, td {
+  border:1px solid blue;
+}
+th{
+	color : red;
+}
+td{
+	width: 200px;
+}
+.glow {
+  font-size: 80px;
+  color: #0e0e0e;
+  text-align: center;
+  animation: glow 1s linear infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #c865e0, 0 0 30px #001ce6, 0 0 40px #0058e6, 0 0 50px #00e0e6, 0 0 60px #00e66d, 0 0 70px #67e600;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+.card {
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    display: flex;
+    flex-direction: row;	
+  padding-bottom:20px;
+}
+
+.team {
+  color: #17a225de;
+  font-size: 18px;
+  text-align: left;
+  padding-left: 30px;
+  font-weight: 700;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+.name{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 600;
+    padding-left: 35px;
+    color: #2a00ff;
+}
+
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #04AA6D;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+<h2 style="text-align:center;font-size: 50px;    border: 3px solid #1c94c4;">Match-1</h2>
+
+<div class="card">
+<div class="details" style="display: flex;flex-direction: column;">
+  <img src="C:/Users/NJA/Downloads/team2.jpg" alt="John" style="width: 70%;height: 60%;margin-left: 30px;margin-top: 50px;">  
+  <span class="name">John Doe</span>
+  <span class="team">CEO & Founder, Example</span>
+  </div>
+  <div class "score" style="margin: 36px 0;width: 100%;height: 100%;">
+  <table style="width:100%;height: 250px;">
+  <tr style="height: 20%;font-size: 30px;">
+    <th>Set 1</th>
+    <th>Set 2</th>
+    <th>Set 3</th>
+    <th>Set 4</th>
+    <th>Set 5</th>
+  </tr>
+  <tr style="font-size: 100px;font-weight: 900;">
+    <td>10</td>
+    <td>10</td>
+    <td>10</td>
+	<td>14</td>
+    <td>10</td>
+  </tr>
+</table> 
+  </div>
+</div>
+<div class="card">
+<div class="details" style="display: flex;flex-direction: column;">
+  <img src="C:/Users/NJA/Downloads/team2.jpg" alt="John" style="width: 70%;height: 60%;margin-left: 30px;margin-top: 50px;">  
+  <span class="name">John Doe</span>
+  <span class="team">CEO & Founder, Example</span>
+  </div>
+  <div class "score" style="margin: 36px 0;width: 100%;height: 100%;">
+  <table style="width:100%;height: 250px;">
+  <tr style="height: 20%;font-size: 30px;">
+    <th>Set 1</th>
+    <th>Set 2</th>
+    <th>Set 3</th>
+    <th>Set 4</th>
+    <th>Set 5</th>
+  </tr>
+  <tr style="font-size: 100px;font-weight: 900;">
+    <td>16</td>
+    <td>14</td>
+    <td>10</td>
+	<td>14</td>
+    <td>10</td>
+  </tr>
+</table> 
+  </div>
+</div>
+<script>
+var i = 0;
+function move() {
+  if (i == 0) {
+    i = 1;
+    var elem = document.getElementById("myBar");
+    var width = 1;
+    var id = setInterval(frame, 100);
+    function frame() {
+      if (width >= 100) {
+        clearInterval(id);
+        i = 0;
+      } else {
+        width++;
+        elem.style.width = width + "%";
+      }
+    }
+  }
+}
+move();
+//setInterval(move, 100);
+</script>
+</body>
+</html>
