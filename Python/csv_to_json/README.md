@@ -18,9 +18,3 @@ if not already installed use pip3 install csv and pip3 install json.
 ## 🌟 How to run
 <!--Remove the below lines and add yours -->
 python3 csv_to_json.py.
-
-
-
-## 🤖 Author
-<!--Remove the below lines and add yours -->
-Rajit Gupta.
