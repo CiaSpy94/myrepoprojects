@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "626623472463",
+    "firebase_url": "https://food2home-23b1f.firebaseio.com",
+    "project_id": "food2home-23b1f",
+    "storage_bucket": "food2home-23b1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626623472463:android:4e3270a539a1f56c635b3a",
+        "android_client_info": {
+          "package_name": "com.shopingu.food2home"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626623472463-mt5ftbifi1b4rns8b7n14jpd29p1fll7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shopingu.food2home",
+            "certificate_hash": "07e117da868355212c4e7ad084ebb9a1b703bc5b"
+          }
+        },
+        {
+          "client_id": "626623472463-uka3qp8e36nbc9tm8qcsfpet4s9cl7sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAej9sFRghS-iQsIZFLfHUmq5hq0juVmF0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626623472463-uka3qp8e36nbc9tm8qcsfpet4s9cl7sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

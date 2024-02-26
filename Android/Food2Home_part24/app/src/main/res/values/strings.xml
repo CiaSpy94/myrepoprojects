@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Food2Home</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Welcome to Food2Home</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_clear_cart">Clear Cart</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_cart">Cart</string>
+    <string name="menu_tools">Tools</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_food_list">Food List</string>
+    <string name="sign_out">Sign Out</string>
+
+    <string name="popular_categories">Popular Categories</string>
+    <string name="news_feeds">Latest Updates</string>
+    <string name="menu_menu">Categories</string>
+    <string name="menu_food_detail">Food Detail</string>
+    <string name="size">Weight</string>
+</resources>
