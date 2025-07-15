@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GIT Actions</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; }
+    select, input, button { margin: 10px; padding: 10px; width: 200px; }
+    button { cursor: pointer; }
+    pre { background-color: #eee; padding: 10px; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>GIT Actions</h1>
+
+  <label for="branch">GIT Branch:</label>
+  <select id="branch">
+    <option>25.1</option>
+    <option>25.2</option>
+    <option>25.3</option>
+    <option>25.4</option>
+    <option>25.5</option>
+    <option>25.6</option>
+    <option>25.7</option>
+    <option>25.8</option>
+    <option>25.9</option>
+    <option>25.10</option>
+    <option>25.11</option>
+    <option>25.12</option>
+  </select>
+
+  <br>
+
+  <button onclick="runSwitch()">Switch</button>
+  <button onclick="runReset()">Reset</button>
+  <button onclick="runPull()">Git Pull</button>
+
+  <br>
+
+  <input type="text" id="commitMsg" placeholder="Commit Message">
+  <br>
+
+  <button onclick="runCommit()">Git Commit</button>
+  <button onclick="runPush()">Git Push</button>
+
+  <br>
+  <pre id="output">Command output will appear here...</pre>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
