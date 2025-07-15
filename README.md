@@ -1,2 +1,2 @@
 # myrepoprojects
-25.7 branch created
+25.7 git branch created
